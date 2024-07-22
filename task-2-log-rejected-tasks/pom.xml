@@ -6,7 +6,7 @@
 
     <parent>
         <groupId>com.github.javarar</groupId>
-        <artifactId>hw-1-threads-and-executors</artifactId>
+        <artifactId>hw-5</artifactId>
         <version>1.0.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
@@ -28,9 +28,22 @@
     </developers>
 
     <dependencies>
-        <!-- libraries -->
-
-        <!-- tests -->
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-api</artifactId>
+            <version>2.23.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>2.23.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.32</version>
+            <scope>provided</scope>
+        </dependency>
     </dependencies>
 
 </project>
